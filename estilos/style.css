@@ -1,0 +1,178 @@
+@font-face {
+    font-family: ubuntu;
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: space mono;
+    src: url('../fonts/SpaceMono-Regular.ttf');
+}
+
+
+.body {
+    font-family: 'space mono';
+}
+
+
+.bg-img {
+    background-image: url("../images/spinning-record-player-with-vintage-vinyl.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.container {
+  position: relative;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  font-family: 'ubuntu';  
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.hero-image{
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+}
+
+h2{
+    font-family: 'space mono';
+    color:rgb(217, 115, 115);
+    position:absolute;
+    text-align: right;
+    
+}
+
+
+.texto{
+    padding: 60px 60px;
+    font-family: 'space mono';
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(217, 115, 115);
+    font-family: 'space mono';
+}
+
+.column1{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.card1{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .column2{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+  .card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .column3{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+  .card3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .column4{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+  .card4{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .foot{
+    font-family: 'space mono';
+    text-align: center;
+    font-size: small;
+    background-color: lightgrey;
+  }
+
+  .p .foot{
+    color: rgb(242, 242, 242);
+  }
+
+
+@media screen and (max-width:599px){
+}
+
+@media screen and (min-width:600px) and (max-width:799px){
+}
